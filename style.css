@@ -12,7 +12,7 @@ body {
 /* ================ Header ================*/
 .header {
   background-color: #968bd6;
-  height: 40vh;
+  height: 60vh;
   padding: 40px 0;
   position: relative;
 }
@@ -55,8 +55,10 @@ body {
 }
 
 .about__title {
-  font-size: 52px;
+  font-size: 36px;
   font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .about__suptitle {
@@ -101,27 +103,18 @@ body {
   text-align: center;
 }
 
-.fa-brands {
-  font-size: 50px;
-  margin: 0 15px;
+.text-loan_link {
+  font-weight: bold;
+  font-size: small;
   background: -webkit-linear-gradient(
     45deg,
-    rgb(218, 48, 48),
-    rgb(179, 39, 48)
+    rgb(0, 0, 0),
+    rgb(0, 0, 0)
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  cursor: pointer;
-}
-
-.fa-brands:hover {
-  background: -webkit-linear-gradient(
-    45deg,
-    rgb(218, 48, 48),
-    rgb(179, 39, 48)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 .footer__suptitle {
@@ -130,25 +123,84 @@ body {
   padding-left: 50px;
 }
 
-.social {
-  padding-top: 150px;
-  padding-bottom: 50px;
-}
 
-.arr {
-  color: rgb(159, 159, 159);
-  font-size: 14px;
-}
 
 .btn {
-  background: -webkit-linear-gradient(
-    45deg,
-    rgb(218, 48, 48),
-    rgb(179, 39, 48)
-  );
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 17px 39px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.14);
+  text-transform: uppercase;
+  box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
 }
 
-.brands_right {
-  font-size: 30px; 
-  color: rgb(218, 48, 48);
+.row_buttons {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.btn-success{
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 17px 39px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.14);
+  text-transform: uppercase;
+  box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#05ac50+0,21dd72+50,05c44e+51,05ac50+71,05ac50+100 */
+  background: #05ac50;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #05ac50 0%, #21dd72 50%, #05c44e 51%, #05ac50 71%, #05ac50 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #05ac50 0%,#21dd72 50%,#05c44e 51%,#05ac50 71%,#05ac50 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #05ac50 0%,#21dd72 50%,#05c44e 51%,#05ac50 71%,#05ac50 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05ac50', endColorstr='#05ac50',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 3s ease infinite;
+  -moz-animation: AnimationName 3s ease infinite;
+  animation: AnimationName 3s ease infinite;
+  -webkit-animation: AnimationName 3s ease infinite;
+  -moz-animation: AnimationName 3s ease infinite;
+  animation: AnimationName 3s ease infinite;
+  border: medium none;
+}
+
+.btn-outline-success:hover {
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 17px 39px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.14);
+  text-transform: uppercase;
+  box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
+
+  background-color: #5a7ce2;
+  border-color: #5a7ce2;
+  color: #fff;
+ }
+
+ .btn-outline-success:hover {
+  background-color: #5a7ce2;
+  border-color: #5a7ce2;
+  color: #fff;
+ }
+
+ .btn-success:hover {
+  background-color: #5a7ce2;
+  border-color: #5a7ce2;
+  color: #fff;
+ }
+
+a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
 }

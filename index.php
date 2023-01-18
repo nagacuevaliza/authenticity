@@ -9,14 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
-    <!-- <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">    -->
     <title>AUTHENTICITY</title>
   </head>
   <body>
@@ -27,9 +19,25 @@
             <div class="header__info">
               <h1 class="title">Проверка справок на подлинность</h1>
               <p class="suptitle">
-                Вводный текст__________________________________________________________________________
-                ________________________________________________________________________
-                 </p>
+              Здесь Вы можете проверить законно ли была приобретена Ваша медицинская справка.<br>
+              При помощи номера лицензии, указанного на документе, узнайте статус организации, выдавшей его.<br>
+              ______________________________________________<br>
+              При необходимости рекомендуется ознакомиться с последстивиями использования подделанной справки,<br>
+              которые представлены ниже.<br>
+              A именно - наказание по кодексу об административных правонарушениях или статья по УК РФ.<br>
+              </p>
+              
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="loan-link" style="text-align: center">
+                <p><a href="http://www.consultant.ru/document/cons_doc_LAW_10699/eb1160e707f86680589d651351beda77dbbde1f5/">
+                  <img src="./images/law.svg" alt="law" width="50"/></a></p>
+                <div class="text-loan_link">
+                  <a href="http://www.consultant.ru/document/cons_doc_LAW_10699/eb1160e707f86680589d651351beda77dbbde1f5/"
+                  target="_blank">УК РФ Статья 327</a>
+                </div>
             </div>
           </div>
         </div>
@@ -41,16 +49,15 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <h2 class="about__title">Кнопки</h2>
+          <div class="col-12">
+            <h2 class="about__title">Выберите действие</h2>
 
-            <!-- Row 1 -->
-            <div class="row">
-              
+            <div class="row_buttons">
+              <button type='submit' class="btn-success"><a href="./main.php">Проверить лицензию</a></button>
             </div>
 
-            <!-- Row 2 -->
-            <div class="row">
-              
+            <div class="row_buttons">
+              <button type='submit' class="btn-success"><a href="./main.php">Войти</a></button>
             </div>
 
           </div>
@@ -71,13 +78,9 @@
                 <a href="https://data.mos.ru/opendata/7707089084-perechen-organizatsiy-imeyushchih-litsenziyu-na-vydachu-spravok-dlya-polucheniya-voditelskih-udostovereniy-noshenie-orujiya-i-drugie?pageNumber=4&versionNumber=3&releaseNumber=21"
                 target="_blank">Перечень организаций, имеющих лицензию на выдачу справок для получения 
                 водительских удостоверений, ношение оружия и другие</a>
-            </div>
-            <!-- <div class="row">
-                 <!-- LINK -->
-            </div>
-            
+            </div>            
         </div>
-</section>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
