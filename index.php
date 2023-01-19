@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="media.css">
+    <link rel="icon" href="./images/doc.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
     <title>AUTHENTICITY</title>
   </head>
   <body>
-    <header class="header">
-      <div class="container">
+    <header class="header" id="start">
+      <div class="container"> 
         <div class="row">
           <div class="col">
             <div class="header__info">
@@ -53,12 +54,12 @@
             <h2 class="about__title">Выберите действие</h2>
 
             <div class="row_buttons">
-              <button type='submit' class="btn-success"><a href="./main.php">Проверить лицензию</a></button>
+              <button type='submit' class="btn-success"><a href="./check_license.php">Проверить лицензию</a></button>
             </div>
 
-            <div class="row_buttons">
+            <!-- <div class="row_buttons">
               <button type='submit' class="btn-success"><a href="./main.php">Войти</a></button>
-            </div>
+            </div> -->
 
           </div>
         </div>
@@ -80,6 +81,11 @@
                 водительских удостоверений, ношение оружия и другие</a>
             </div>            
         </div>
+
+        <div class="nav-link" style="text-align: right">
+        <p><a href="#start">
+            <img src="./images/up.png" alt="law" width="50"/></a></p>
+      </div>
     </section>
 
     <script

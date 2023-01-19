@@ -12,8 +12,8 @@ body {
 /* ================ Header ================*/
 .header {
   background-color: #968bd6;
-  height: 60vh;
-  padding: 40px 0;
+  /* height: 60vh; */
+  padding: 20px 0;
   position: relative;
 }
 
@@ -69,10 +69,49 @@ body {
   min-height: 150px;
 }
 
-/* ================ Footer ================*/
+.license_input {
+  border: 2px solid #968bd6; 
+  border-radius: 3px;
+  -webkit-border-radius: 3px; 
+  -moz-border-radius: 3px; 
+  -khtml-border-radius: 3px; 
+  background: #ffffff !important; 
+  outline: none; 
+  height: 60px;
+  width: 30%; 
+  color: #ac2828;
+  font-size: 36px; 
+  text-align: center;
+}
+
+
+.license_format_text {
+  color: gray;
+  /* font-style: italic; */
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.license_format {
+  color: gray;
+  font-weight: bold;
+  font-style:italic;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.row_license {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.nav-link {
+  margin: 20px;
+}
+
 .link_section {
   background-color: #968bd6;
-  padding: 40px 0;
+  padding: 30px 0;
 }
 
 .link_title {
@@ -123,8 +162,6 @@ body {
   padding-left: 50px;
 }
 
-
-
 .btn {
   border-radius: 100px;
   font-size: 13px;
@@ -138,7 +175,7 @@ body {
 
 .row_buttons {
   text-align: center;
-  margin-bottom: 30px;
+  margin: 30px;
 }
 
 .btn-success{
