@@ -16,7 +16,7 @@
     <header class="header">
         
       <div class="nav-link" style="text-align: left">
-        <p><a href="./index.php">
+        <p><a href="./check_license.php">
             <img src="./images/back.png" alt="law" width="50"/></a></p>
       </div>
 
@@ -47,13 +47,16 @@
         <div class="row_license">
           <div class="col">
 
-            <h2 class="license_format_text">Введите номер лицензии в формате:</h2>
-            <p class="license_format">YY-00-00-000000</p>
+          <h1><?=$title?></h1>
+          <h1><?=$address?></h1>
+          <h1><?=$title?></h1>
+          <h1><?=$title?></h1>
+          <h1><?=$title?></h1>
 
             <form method="POST" action="answer.php">
                 <input required class="license_input" type="text" name="license_number">  
                 <div class="row_buttons">
-                  <button type='submit' class="btn-success"><a href="./answer.php?license_number=<?=$agency["license_number"]?>s">Проверить</a></button>
+                  <button type='submit' class="btn-success"><a href="./answer.php">Проверить</a></button>
                 </div>
             </form>
 
