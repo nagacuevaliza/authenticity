@@ -49,7 +49,7 @@
 
           <h1><?=$title?></h1>
           <h1><?=$address?></h1>
-          <h1><?=$title?></h1>
+          <h1><?=$services?></h1>
           <h1><?=$title?></h1>
           <h1><?=$title?></h1>
 
