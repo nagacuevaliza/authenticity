@@ -29,6 +29,7 @@ body {
   text-shadow: 0 0 25px rgba(211, 72, 114, 0.5);
   font-weight: bold;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 .suptitle {
@@ -65,8 +66,16 @@ body {
   margin: 30px 0;
 }
 
-.card {
-  min-height: 150px;
+.table {
+  text-align: center;
+  width: 80%;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 0px;
+}
+
+.answer_container {
+  text-align: center;
 }
 
 .license_input {
@@ -79,7 +88,7 @@ body {
   outline: none; 
   height: 60px;
   width: 30%; 
-  color: #ac2828;
+  color: rgb(179, 39, 48);
   font-size: 36px; 
   text-align: center;
 }

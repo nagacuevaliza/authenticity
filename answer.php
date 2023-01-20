@@ -6,11 +6,10 @@ require("dbconnect.php");
 // $result = mysqli_query($connect, "SELECT * FROM info WHERE LicenceNumber=".$_POST['license_number']);
 // $agency = mysqli_query($connect, "SELECT * FROM users WHERE id=".$page["user_id"]);
 
-if(!empty($GET)){
-	echo " not empty";
-    $result = mysqli_query($connect, "SELECT * FROM info WHERE LicenceNumber=\"".$GET['license']."\"");
-	echo $GET['license'];
-    echo mysqli_num_rows($result);
+if(!empty($_GET)){
+    $result = mysqli_query($connect, "SELECT * FROM info WHERE LicenceNumber=\"".$_GET['license']."\"");
+	// $result = mysqli_query($connect, "SELECT * FROM info WHERE LicenceNumber=\"ФС-99-01-009224\"");
+    // echo mysqli_num_rows($result);
 
 
 	if(!$result || mysqli_num_rows($result) == 0){
@@ -18,23 +17,39 @@ if(!empty($GET)){
 		exit;
 	}
 
+	// $check = isset($_GET['license']) ? $_GET['license'] : 255;
+	// echo $check;
+
+	// $agency = mysqli_query($connect, "SELECT * FROM info WHERE LicenceNumber=\"".$_POST['license']."\"");
+
+
 	$agency = mysqli_fetch_assoc($result);
 	$title = $agency["Name"];
+	$licence = $agency["LicenceNumber"];
 	$address = $agency["Address"];
 	$services = $agency["Services"];
 	$validity = $agency["Validity"];
 	$inn = $agency["INN"];
 	$ogrn = $agency["OGRN"];
 
-	$check = isset($GET['license']) ? $GET['license'] : 255;
-	echo $check;
+	require("display_answer.php");
+}
+else {
+$result = mysqli_query($connect, "SELECT * FROM info WHERE LicenceNumber=\"ФС-99-01-009224\"");
 
-	// $agency = mysqli_query($connect, "SELECT * FROM info WHERE LicenceNumber=\"".$_POST['license']."\"");
-
-
+$agency = mysqli_fetch_assoc($result);
+$title = $agency["Name"];
+$licence = $agency["LicenceNumber"];
+$address = $agency["Address"];
+$services = $agency["Services"];
+$validity = $agency["Validity"];
+$inn = $agency["INN"];
+$ogrn = $agency["OGRN"];
 }
 
-require("display_answer.php");
+
+
+// require("display_answer.php");
 
 ?>
 

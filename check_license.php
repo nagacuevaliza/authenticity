@@ -51,9 +51,10 @@
             <p class="license_format">YY-00-00-000000</p>
 
             <form method="get" action="answer.php">
-                <input type="text" name="license" id="license" class="license_input">
+                <input required type="text" name="license" id="license" class="license_input">
                 <div class="row_buttons">
-                  <button type='submit' class="btn-success"><a href="./answer.php">Проверить</a></button>
+                <button type='submit' class="btn-success">Проверить</button>
+                  <!-- <button type='submit' class="btn-success"><a href="./answer.php">Проверить</a></button> -->
                 </div>
             </form>
 

@@ -51,7 +51,7 @@
         <div class="row">
           <div class="col">
           <div class="col-12">
-            <h2 class="about__title">Выберите действие</h2>
+            <!-- <h2 class="about__title">Выберите действие</h2> -->
 
             <div class="row_buttons">
               <button type='submit' class="btn-success"><a href="./check_license.php">Проверить лицензию</a></button>
