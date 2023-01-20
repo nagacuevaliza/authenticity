@@ -63,22 +63,8 @@
       </div>
     </section>
 
-    <!-- LINK -->
-
-    <section class="link_section">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    <h1 class="link_title">Использованный набор открытых данных доступен по ссылке:</h1>
-                </div>
-            </div>
-            <div class="database_link">
-                <a href="https://data.mos.ru/opendata/7707089084-perechen-organizatsiy-imeyushchih-litsenziyu-na-vydachu-spravok-dlya-polucheniya-voditelskih-udostovereniy-noshenie-orujiya-i-drugie?pageNumber=4&versionNumber=3&releaseNumber=21"
-                target="_blank">Перечень организаций, имеющих лицензию на выдачу справок для получения 
-                водительских удостоверений, ношение оружия и другие</a>
-            </div>            
-        </div>
-    </section>
+     <!-- FOOTER -->
+     <?php require("./elements/footer.php") ?>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
