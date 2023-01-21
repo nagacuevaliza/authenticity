@@ -24,7 +24,6 @@ if(!empty($_GET)){
 
 		// $agency = mysqli_query($connect, "SELECT * FROM info WHERE LicenceNumber=\"".$_POST['license']."\"");
 
-
 		$agency = mysqli_fetch_assoc($result);
 		$title = $agency["Name"];
 		$licence = $agency["LicenceNumber"];
@@ -36,7 +35,6 @@ if(!empty($_GET)){
 
 		require("display_answer.php");
 	}
-
 	
 }
 

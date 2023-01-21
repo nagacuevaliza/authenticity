@@ -13,13 +13,35 @@
     <title>CHECKING</title>
   </head>
   <body>
-    <header class="header">
+
+  <header class="header">
+    <div class="wrap">
+      <div class="header_wrap">
+        <div><a href="index.php"><img src="./images/doc.svg" alt="logo" width="50px" style="margin-bottom: 10px;"/></a></div>
+        <div class="logo"><a href="index.php">AUTHENTICITY</a></div>
+        <ul class="menu">
+          <li><a href="about_project.php" class="menu_item">О ПРОЕКТЕ</a></li>
+          <li><a href="signin.php" class="menu_item">АВТОРИЗАЦИЯ</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+    <intro class="intro">
         
+    <div class="container"> 
+      <nav class="nav">
+        <ul class="menu">
+          <li class="menu_item" style="text-align: right;"><a href="about_project.php">О ПРОЕКТЕ</a></li>
+          <li class="menu_item"><a href="signin.php">АВТОРИЗАЦИЯ</a></li>
+        </ul>
+      </nav>
+    </div>
+
       <div class="nav-link" style="text-align: left">
         <p><a href="./index.php">
             <img src="./images/back.png" alt="law" width="50"/></a></p>
       </div>
-
 
       <div class="container"> 
         <div class="row">
@@ -27,19 +49,13 @@
             <div class="header__info">
               <h1 class="title">Проверка лицензии организациии</h1>
               <p class="suptitle"  style="font-size: 20px;">
-              Введите в поле номер лицензии, указанный на справке, для проверки организации.<br>
-              
+              Введите в поле номер лицензии, указанный на справке, для проверки организации.<br>   
               </p>
             </div>
           </div>
         </div>
-
-        <div class="row">
-          <div class="col">
-          </div>
-        </div>
       </div> 
-    </header>
+    </intro>
 
 
     <section class="about">

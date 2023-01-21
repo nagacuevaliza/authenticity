@@ -13,7 +13,21 @@
     <title>CHECKING</title>
   </head>
   <body>
-    <header class="header">
+
+  <header class="header">
+    <div class="wrap">
+      <div class="header_wrap">
+        <div><a href="index.php"><img src="./images/doc.svg" alt="logo" width="50px" style="margin-bottom: 10px;"/></a></div>
+        <div class="logo"><a href="index.php">AUTHENTICITY</a></div>
+        <ul class="menu">
+          <li><a href="about_project.php" class="menu_item">О ПРОЕКТЕ</a></li>
+          <li><a href="signin.php" class="menu_item">АВТОРИЗАЦИЯ</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+    <intro class="intro">
         
       <div class="nav-link" style="text-align: left">
         <p><a href="./check_license.php">
@@ -37,7 +51,7 @@
           </div>
         </div>
       </div> 
-    </header>
+    </intro>
 
 
     <section class="about">
@@ -80,11 +94,12 @@
             <button type='submit' class="btn"><a href="./check_license.php" style="color: black">Вернуться</a></button>
           </div>
 
-          <h2 class="license_format_text">Доступен просмотр услуг, предоставляемых данной организацией</h2>
+          <!-- <h2 class="license_format_text">Доступен просмотр услуг, предоставляемых данной организацией</h2>
 
           <div class="row_buttons">
-            <button type='submit' class="btn"><a href="./services?title=<?=$title?>.php" style="color: black">Услуги организации</a></button>
-          </div>
+            <?=$name = "djek"?>
+            <button type='submit' class="btn"><a href="./services.php?title='<?=$title;?>'" style="color: black">Услуги организации</a></button>
+          </div> -->
 
         </div>
       </div>

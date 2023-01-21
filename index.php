@@ -13,8 +13,22 @@
     <title>AUTHENTICITY</title>
   </head>
   <body>
-    <header class="header" id="start">
-      <div class="container"> 
+
+  <header class="header">
+    <div class="wrap">
+      <div class="header_wrap">
+        <div><a href="index.php"><img src="./images/doc.svg" alt="logo" width="50px" style="margin-bottom: 10px;"/></a></div>
+        <div class="logo"><a href="index.php">AUTHENTICITY</a></div>
+        <ul class="menu">
+          <li><a href="about_project.php" class="menu_item">О ПРОЕКТЕ</a></li>
+          <li><a href="signin.php" class="menu_item">АВТОРИЗАЦИЯ</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <intro class="intro" id="start">
+    <div class="container"> 
         <div class="row">
           <div class="col">
             <div class="header__info">
@@ -23,6 +37,8 @@
               Здесь Вы можете проверить законно ли была приобретена Ваша медицинская справка.<br>
               При помощи номера лицензии, указанного на документе, узнайте статус организации, выдавшей его.<br>
               ______________________________________________<br>
+              При необходимости рекомендуется ознакомиться с последстивиями использования подделанной справки,<br>
+              которые представлены ниже.<br>
               При необходимости рекомендуется ознакомиться с последстивиями использования подделанной справки<br>
               A именно - наказание по кодексу об административных правонарушениях или статья по УК РФ.<br>
               </p>
@@ -42,14 +58,14 @@
           </div>
         </div>
       </div>
-    </header>
+</intro>
 
 
     <section class="about">
       <div class="container">
-        <div class="row">
+        <!-- <div class="row">
           <div class="col">
-          <div class="col-12">
+          <div class="col-12"> -->
             <!-- <h2 class="about__title">Выберите действие</h2> -->
 
             <div class="row_buttons">
