@@ -1,9 +1,10 @@
-<div class="nav-link" style="text-align: right">
+</div> <!-- content -->
+
+    <footer class="link_section">
+    <div class="nav-link" style="text-align: right">
             <p><a href="#start">
             <img src="./images/up.png" alt="law" width="50"/></a></p>
           </div>
-
-    <footer class="link_section">
         <div class="container">
           <div class="col text-center">
             <h1 class="link_title">Использованный набор открытых данных доступен по ссылке:</h1>
@@ -15,3 +16,13 @@
             </div>            
         </div>
     </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+
+  </div>  <!-- wrapper -->
+  </body>
+</html>

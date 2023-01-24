@@ -5,7 +5,7 @@
 <!-- MAIN -->
 
     <intro class="intro">
-     
+        
       <div class="nav-link" style="text-align: left">
         <p><a href="./index.php">
             <img src="./images/back.png" alt="law" width="50"/></a></p>
@@ -15,9 +15,9 @@
         <div class="row">
           <div class="col">
             <div class="header__info">
-              <h1 class="title">Проверка лицензии организациии</h1>
+              <h1 class="title">Добро пожаловать, <?=$lastname ?></h1>
               <p class="suptitle"  style="font-size: 20px;">
-              Введите в поле номер лицензии, указанный на справке, для проверки организации.<br>   
+              Если хотите узнать об услугах организации, введите в поле номер лицензии, указанный на справке<br>   
               </p>
             </div>
           </div>
@@ -48,5 +48,7 @@
     </section>
 
      <!-- FOOTER -->
-
+     <?php 
+     require("session.php");
+     ?>
      <?php require("./elements/footer.php") ?>
