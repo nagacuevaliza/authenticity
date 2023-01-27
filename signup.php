@@ -15,7 +15,7 @@
         <div class="row">
           <div class="col">
 
-          <form method="get" action="register.php" class="registration-form">
+          <form method="get" action="./register.php" class="registration-form">
             <label class="col-one-half">
                 <span class="label-text">Фамилия</span>
                 <input type="text" name="firstname">

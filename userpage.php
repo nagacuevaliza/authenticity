@@ -1,6 +1,7 @@
 <!-- HEADER -->
-
+<?php require("session.php"); ?>
 <?php require("./elements/header.php") ?>
+
 
 <!-- MAIN -->
 
@@ -17,7 +18,7 @@
             <div class="header__info">
               <h1 class="title">Добро пожаловать, <?=$lastname ?></h1>
               <p class="suptitle"  style="font-size: 20px;">
-              Если хотите узнать об услугах организации, введите в поле номер лицензии, указанный на справке<br>   
+              Если хотите узнать об услугах организации, введите в поле номер лицензии, указанный на справке.<br>   
               </p>
             </div>
           </div>
@@ -34,7 +35,7 @@
             <h2 class="license_format_text">Введите номер лицензии в формате:</h2>
             <p class="license_format">YY-00-00-000000</p>
 
-            <form method="get" action="answer.php">
+            <form method="get" action="./answer.php">
                 <input required type="text" name="license" id="license" class="license_input">
                 <div class="row_buttons">
                   <button type='submit' class="btn">Проверить</button>

@@ -7,7 +7,7 @@
     <intro class="intro">
         
       <div class="nav-link" style="text-align: left">
-        <p><a href="index.php">
+        <p><a href="./index.php">
             <img src="./images/back.png" alt="law" width="50"/></a></p>
       </div>
 
@@ -15,7 +15,7 @@
         <div class="row">
           <div class="col">
 
-          <form method="get" action="auth.php" class="registration-form">
+          <form method="get" action="./auth.php" class="registration-form">
             <label>
                 <span class="label-text">Email</span>
                 <input type="text" name="email">

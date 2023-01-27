@@ -1,3 +1,7 @@
+<?php
+require("./session.php"); 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -26,18 +30,18 @@
 
         <ul class="menu">
           
-          <li class="menu_item"><a href="index.php"><img src="./images/doc.svg" alt="logo" width="50px" style="margin-bottom: 10px;"/></a></li>
-          <li class="menu_item" ><a href="index.php"><br>AUTHENTICITY</a></li>
+          <li class="menu_item"><a href="./index.php"><img src="./images/doc.svg" alt="logo" width="50px" style="margin-bottom: 10px;"/></a></li>
+          <li class="menu_item" ><a href="./index.php"><br>AUTHENTICITY</a></li>
           <!-- <li class="menu_item"><a href="signup.php">РЕГИСТРАЦИЯ</a></li> -->
           
         </ul>
 
         <ul class="menu">
           
-          <li class="menu_item"><a href="about_project.php">О ПРОЕКТЕ</a></li>
-          <li class="menu_item"><a href="signin.php">АВТОРИЗАЦИЯ</a></li>
-          <li class="menu_item"><a href="signup.php">РЕГИСТРАЦИЯ</a></li>
-          
+          <li class="menu_item"><a href="./about_project.php">О ПРОЕКТЕ</a></li>
+              <li class="menu_item"><a href="./signin.php">АВТОРИЗАЦИЯ</a></li>
+              <li class="menu_item"><a href="./signup.php">РЕГИСТРАЦИЯ</a></li>
+  
         </ul>
       </div>
     </div>

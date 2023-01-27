@@ -1,5 +1,5 @@
 <?php
-require("dbconnect.php");
+require("./dbconnect.php");
 
 $result = mysqli_query($connect, "SELECT * FROM users WHERE
     email='".$_GET["email"]."' AND
@@ -21,8 +21,7 @@ $lastname = $_SESSION["lastname"];
 $email = $_SESSION["email"];
 
 $session_user = $_SESSION;
-require ("userpage.php");
+require ("./userpage.php");
 
-// header("Location: allpages.php");
 
 ?>

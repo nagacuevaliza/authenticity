@@ -1,5 +1,5 @@
 <!-- HEADER -->
-
+<?php require("session.php"); ?>
 <?php require("./elements/header.php") ?>
 
     <intro class="intro">
@@ -63,6 +63,16 @@
              <th width="20%" style="margin: middle"><br>ОГРН</th>
              <th width="60%" height="100" ><?=$ogrn?></th>
             </tr>
+
+            <?php
+            if (isset($session_user)){
+              echo '<tr class="tr">
+              <th width="3%"><img class="table_image" src="images/ogrn.png" alt="ogrn" /></th>
+              <th width="20%" style="margin: middle"><br>Предоставляемые слуги</th>
+              <th width="60%" height="100" >'.$services.'</th>
+             </tr>';
+            }
+            ?>
 
           </table>
           <div class="row_buttons">

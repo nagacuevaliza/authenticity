@@ -1,6 +1,7 @@
 <!-- HEADER -->
 
 <?php require("./elements/header.php") ?>
+<?php require("session.php"); ?>
 
 <!-- MAIN -->
 
@@ -34,7 +35,7 @@
             <h2 class="license_format_text">Введите номер лицензии в формате:</h2>
             <p class="license_format">YY-00-00-000000</p>
 
-            <form method="get" action="answer.php">
+            <form method="get" action="./answer.php">
                 <input required type="text" name="license" id="license" class="license_input">
                 <div class="row_buttons">
                   <button type='submit' class="btn">Проверить</button>

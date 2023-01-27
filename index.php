@@ -1,5 +1,7 @@
+
+
 <!-- HEADER -->
-<?php require("session.php"); ?>
+
 <?php require("./elements/header.php") ?>
 
 <!-- MAIN -->
